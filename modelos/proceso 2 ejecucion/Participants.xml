@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<Participants xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.wfmc.org/2009/XPDL2.2">
+  <Participant Id="2eab6a4a-f80e-4212-86e9-6523020fc6a3" Name="R Tarea 1">
+    <ParticipantType Type="ROLE" />
+    <Description />
+    <ExtendedAttributes>
+      <ExtendedAttribute Name="RTarea1" />
+    </ExtendedAttributes>
+  </Participant>
+  <Participant Id="96da0028-4335-45bb-a6cb-765d78bfc002" Name="R Tarea 2-4">
+    <ParticipantType Type="ROLE" />
+    <Description />
+    <ExtendedAttributes>
+      <ExtendedAttribute Name="RTarea2-4" />
+    </ExtendedAttributes>
+  </Participant>
+  <Participant Id="357b4c8d-ccfe-4e9b-94e5-e1e58c9cd996" Name="R Tarea 5">
+    <ParticipantType Type="ROLE" />
+    <Description />
+    <ExtendedAttributes>
+      <ExtendedAttribute Name="RTarea5" />
+    </ExtendedAttributes>
+  </Participant>
+</Participants>

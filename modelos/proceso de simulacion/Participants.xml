@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<Participants xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.wfmc.org/2009/XPDL2.2">
+  <Participant Id="9a400ed5-5179-4a95-8c43-43af162ccd2d" Name="Recurso 1">
+    <ParticipantType Type="ROLE" />
+    <Description />
+    <ExtendedAttributes>
+      <ExtendedAttribute Name="Recurso1" />
+    </ExtendedAttributes>
+  </Participant>
+  <Participant Id="f718e976-0520-43db-a367-a6a42384b39f" Name="Recurso 2">
+    <ParticipantType Type="ROLE" />
+    <Description />
+    <ExtendedAttributes>
+      <ExtendedAttribute Name="Recurso2" />
+    </ExtendedAttributes>
+  </Participant>
+  <Participant Id="9f2672ee-bfaa-4a19-b027-13e555ff6ab7" Name="Recurso 3">
+    <ParticipantType Type="ROLE" />
+    <Description />
+    <ExtendedAttributes>
+      <ExtendedAttribute Name="Recurso3" />
+    </ExtendedAttributes>
+  </Participant>
+</Participants>

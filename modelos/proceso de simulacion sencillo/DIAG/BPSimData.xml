@@ -1,0 +1,350 @@
+<?xml version="1.0"?>
+<ns1:BPSimData simulationLevel="LevelTwo" xmlns:ns1="http://www.bpsim.org/schemas/1.0">
+  <ns1:Scenario id="Scenario_941d57fb-55e0-4c54-8c01-feb3f2a6564c" name="Escenario 1" author="david" version="1.0">
+    <ns1:ScenarioParameters>
+      <ns1:Duration>
+        <ns1:DurationParameter value="P30D" />
+      </ns1:Duration>
+      <ns1:PropertyParameters />
+    </ns1:ScenarioParameters>
+    <ns1:ElementParameters elementRef="Id_33a1607f-dfa8-4a6b-81d5-5f559fc7ccc9">
+      <ns1:ControlParameters>
+        <ns1:InterTriggerTimer>
+          <ns1:ResultRequest>min</ns1:ResultRequest>
+          <ns1:ResultRequest>max</ns1:ResultRequest>
+          <ns1:ResultRequest>mean</ns1:ResultRequest>
+          <ns1:ResultRequest>sum</ns1:ResultRequest>
+          <ns1:NumericParameter value="0" />
+        </ns1:InterTriggerTimer>
+        <ns1:TriggerCount>
+          <ns1:ResultRequest>count</ns1:ResultRequest>
+          <ns1:NumericParameter value="3" />
+        </ns1:TriggerCount>
+      </ns1:ControlParameters>
+      <ns1:PropertyParameters />
+    </ns1:ElementParameters>
+    <ns1:ElementParameters elementRef="Id_e4f2d492-fbcf-4bc7-ae61-09defaec81b8">
+      <ns1:ControlParameters>
+        <ns1:Probability>
+          <ns1:FloatingParameter value="0.35" />
+        </ns1:Probability>
+      </ns1:ControlParameters>
+      <ns1:PropertyParameters />
+    </ns1:ElementParameters>
+    <ns1:ElementParameters elementRef="Id_8e9effbe-aff5-4a30-9518-aad931a996f4">
+      <ns1:ControlParameters>
+        <ns1:Probability>
+          <ns1:FloatingParameter value="0.65" />
+        </ns1:Probability>
+      </ns1:ControlParameters>
+      <ns1:PropertyParameters />
+    </ns1:ElementParameters>
+    <ns1:ElementParameters elementRef="Id_2c177442-b09e-4b20-9c99-1cfbe6acff79">
+      <ns1:TimeParameters>
+        <ns1:ProcessingTime>
+          <ns1:ResultRequest>min</ns1:ResultRequest>
+          <ns1:ResultRequest>max</ns1:ResultRequest>
+          <ns1:ResultRequest>mean</ns1:ResultRequest>
+          <ns1:ResultRequest>count</ns1:ResultRequest>
+          <ns1:ResultRequest>sum</ns1:ResultRequest>
+          <ns1:DurationParameter value="PT1M" />
+        </ns1:ProcessingTime>
+      </ns1:TimeParameters>
+      <ns1:ResourceParameters>
+        <ns1:Selection>
+          <ns1:ResultRequest>min</ns1:ResultRequest>
+          <ns1:ResultRequest>max</ns1:ResultRequest>
+          <ns1:ExpressionParameter value="bpsim:getResource(&quot;Recurso1&quot;,1)" />
+        </ns1:Selection>
+      </ns1:ResourceParameters>
+      <ns1:PropertyParameters />
+    </ns1:ElementParameters>
+    <ns1:ElementParameters elementRef="Id_f7e46d08-0988-43f9-83a8-7a883f757930">
+      <ns1:TimeParameters>
+        <ns1:ProcessingTime>
+          <ns1:ResultRequest>min</ns1:ResultRequest>
+          <ns1:ResultRequest>max</ns1:ResultRequest>
+          <ns1:ResultRequest>mean</ns1:ResultRequest>
+          <ns1:ResultRequest>count</ns1:ResultRequest>
+          <ns1:ResultRequest>sum</ns1:ResultRequest>
+          <ns1:DurationParameter value="PT2M" />
+        </ns1:ProcessingTime>
+      </ns1:TimeParameters>
+      <ns1:ResourceParameters>
+        <ns1:Selection>
+          <ns1:ResultRequest>min</ns1:ResultRequest>
+          <ns1:ResultRequest>max</ns1:ResultRequest>
+          <ns1:ExpressionParameter value="bpsim:getResource(&quot;Recurso2&quot;,2)" />
+        </ns1:Selection>
+      </ns1:ResourceParameters>
+      <ns1:PropertyParameters />
+    </ns1:ElementParameters>
+    <ns1:ElementParameters elementRef="Id_8c053049-e600-450f-aa3a-ea8204ee7820">
+      <ns1:TimeParameters>
+        <ns1:ProcessingTime>
+          <ns1:ResultRequest>min</ns1:ResultRequest>
+          <ns1:ResultRequest>max</ns1:ResultRequest>
+          <ns1:ResultRequest>mean</ns1:ResultRequest>
+          <ns1:ResultRequest>count</ns1:ResultRequest>
+          <ns1:ResultRequest>sum</ns1:ResultRequest>
+          <ns1:DurationParameter value="PT3M" />
+        </ns1:ProcessingTime>
+      </ns1:TimeParameters>
+      <ns1:ResourceParameters>
+        <ns1:Selection>
+          <ns1:ResultRequest>min</ns1:ResultRequest>
+          <ns1:ResultRequest>max</ns1:ResultRequest>
+          <ns1:ExpressionParameter value="bpsim:getResource(&quot;Recurso2&quot;,2)" />
+        </ns1:Selection>
+      </ns1:ResourceParameters>
+      <ns1:PropertyParameters />
+    </ns1:ElementParameters>
+    <ns1:ElementParameters elementRef="Id_06cd8fe1-45a4-4f42-b21e-5bf2c1a7411a">
+      <ns1:TimeParameters>
+        <ns1:ProcessingTime>
+          <ns1:ResultRequest>min</ns1:ResultRequest>
+          <ns1:ResultRequest>max</ns1:ResultRequest>
+          <ns1:ResultRequest>mean</ns1:ResultRequest>
+          <ns1:ResultRequest>count</ns1:ResultRequest>
+          <ns1:ResultRequest>sum</ns1:ResultRequest>
+          <ns1:DurationParameter value="PT4M" />
+        </ns1:ProcessingTime>
+      </ns1:TimeParameters>
+      <ns1:ResourceParameters>
+        <ns1:Selection>
+          <ns1:ResultRequest>min</ns1:ResultRequest>
+          <ns1:ResultRequest>max</ns1:ResultRequest>
+          <ns1:ExpressionParameter value="bpsim:getResource(&quot;Recurso3&quot;,3)" />
+        </ns1:Selection>
+      </ns1:ResourceParameters>
+      <ns1:PropertyParameters />
+    </ns1:ElementParameters>
+    <ns1:ElementParameters elementRef="Recurso1">
+      <ns1:ResourceParameters>
+        <ns1:Quantity>
+          <ns1:NumericParameter value="1" />
+        </ns1:Quantity>
+      </ns1:ResourceParameters>
+      <ns1:PropertyParameters />
+    </ns1:ElementParameters>
+    <ns1:ElementParameters elementRef="Recurso2">
+      <ns1:ResourceParameters>
+        <ns1:Quantity>
+          <ns1:NumericParameter value="2" />
+        </ns1:Quantity>
+      </ns1:ResourceParameters>
+      <ns1:PropertyParameters />
+    </ns1:ElementParameters>
+    <ns1:ElementParameters elementRef="Recurso3">
+      <ns1:ResourceParameters>
+        <ns1:Quantity>
+          <ns1:NumericParameter value="3" />
+        </ns1:Quantity>
+      </ns1:ResourceParameters>
+      <ns1:PropertyParameters />
+    </ns1:ElementParameters>
+    <ns1:ElementParameters elementRef="Id_ab6152ac-777e-44a5-9b97-c7295affcf3b">
+      <ns1:TimeParameters>
+        <ns1:WaitTime>
+          <ns1:ResultRequest>min</ns1:ResultRequest>
+          <ns1:ResultRequest>max</ns1:ResultRequest>
+          <ns1:ResultRequest>mean</ns1:ResultRequest>
+          <ns1:ResultRequest>count</ns1:ResultRequest>
+          <ns1:ResultRequest>sum</ns1:ResultRequest>
+          <ns1:DurationParameter value="PT0M" />
+        </ns1:WaitTime>
+        <ns1:ProcessingTime>
+          <ns1:ResultRequest>min</ns1:ResultRequest>
+          <ns1:ResultRequest>max</ns1:ResultRequest>
+          <ns1:ResultRequest>mean</ns1:ResultRequest>
+          <ns1:ResultRequest>count</ns1:ResultRequest>
+          <ns1:ResultRequest>sum</ns1:ResultRequest>
+          <ns1:DurationParameter value="PT5M" />
+        </ns1:ProcessingTime>
+      </ns1:TimeParameters>
+      <ns1:PropertyParameters />
+    </ns1:ElementParameters>
+    <ns1:ElementParameters elementRef="Id_af32ccaf-9eb3-4bbf-abef-73082cd4e26e">
+      <ns1:TimeParameters>
+        <ns1:ProcessingTime>
+          <ns1:ResultRequest>min</ns1:ResultRequest>
+          <ns1:ResultRequest>max</ns1:ResultRequest>
+          <ns1:ResultRequest>mean</ns1:ResultRequest>
+          <ns1:ResultRequest>count</ns1:ResultRequest>
+          <ns1:ResultRequest>sum</ns1:ResultRequest>
+          <ns1:FloatingParameter value="6" />
+        </ns1:ProcessingTime>
+      </ns1:TimeParameters>
+      <ns1:PropertyParameters />
+    </ns1:ElementParameters>
+    <ns1:ElementParameters elementRef="Id_92214cdd-ab16-4340-b756-8d0ad79cb410">
+      <ns1:TimeParameters>
+        <ns1:ProcessingTime>
+          <ns1:ResultRequest>min</ns1:ResultRequest>
+          <ns1:ResultRequest>max</ns1:ResultRequest>
+          <ns1:ResultRequest>mean</ns1:ResultRequest>
+          <ns1:ResultRequest>count</ns1:ResultRequest>
+          <ns1:ResultRequest>sum</ns1:ResultRequest>
+          <ns1:NumericParameter value="7" />
+        </ns1:ProcessingTime>
+      </ns1:TimeParameters>
+      <ns1:PropertyParameters />
+    </ns1:ElementParameters>
+    <ns1:ElementParameters elementRef="Id_c938000b-ea2a-4668-bc63-b05315891cda">
+      <ns1:TimeParameters>
+        <ns1:ProcessingTime>
+          <ns1:ResultRequest>min</ns1:ResultRequest>
+          <ns1:ResultRequest>max</ns1:ResultRequest>
+          <ns1:ResultRequest>mean</ns1:ResultRequest>
+          <ns1:ResultRequest>count</ns1:ResultRequest>
+          <ns1:ResultRequest>sum</ns1:ResultRequest>
+          <ns1:NormalDistribution mean="8" standardDeviation="1" />
+        </ns1:ProcessingTime>
+      </ns1:TimeParameters>
+      <ns1:PropertyParameters />
+    </ns1:ElementParameters>
+    <ns1:ElementParameters elementRef="Id_59ef9f39-3715-4cc0-8b08-779e6aaea493">
+      <ns1:TimeParameters>
+        <ns1:ProcessingTime>
+          <ns1:ResultRequest>min</ns1:ResultRequest>
+          <ns1:ResultRequest>max</ns1:ResultRequest>
+          <ns1:ResultRequest>mean</ns1:ResultRequest>
+          <ns1:ResultRequest>count</ns1:ResultRequest>
+          <ns1:ResultRequest>sum</ns1:ResultRequest>
+          <ns1:TruncatedNormalDistribution mean="9" standardDeviation="2" min="5" max="15" />
+        </ns1:ProcessingTime>
+      </ns1:TimeParameters>
+      <ns1:PropertyParameters />
+    </ns1:ElementParameters>
+    <ns1:ElementParameters elementRef="Id_e02adf5b-cd5f-42d9-9847-4183598a50d9">
+      <ns1:TimeParameters>
+        <ns1:ProcessingTime>
+          <ns1:ResultRequest>min</ns1:ResultRequest>
+          <ns1:ResultRequest>max</ns1:ResultRequest>
+          <ns1:ResultRequest>mean</ns1:ResultRequest>
+          <ns1:ResultRequest>count</ns1:ResultRequest>
+          <ns1:ResultRequest>sum</ns1:ResultRequest>
+          <ns1:TriangularDistribution mode="10" min="5" max="10" />
+        </ns1:ProcessingTime>
+      </ns1:TimeParameters>
+      <ns1:PropertyParameters />
+    </ns1:ElementParameters>
+    <ns1:ElementParameters elementRef="Id_0046ff2c-efff-4ae7-9def-386f2eaaf936">
+      <ns1:TimeParameters>
+        <ns1:ProcessingTime>
+          <ns1:ResultRequest>min</ns1:ResultRequest>
+          <ns1:ResultRequest>max</ns1:ResultRequest>
+          <ns1:ResultRequest>mean</ns1:ResultRequest>
+          <ns1:ResultRequest>count</ns1:ResultRequest>
+          <ns1:ResultRequest>sum</ns1:ResultRequest>
+          <ns1:UniformDistribution min="11" max="13" />
+        </ns1:ProcessingTime>
+      </ns1:TimeParameters>
+      <ns1:PropertyParameters />
+    </ns1:ElementParameters>
+    <ns1:ElementParameters elementRef="Id_89458345-9ad1-429c-a02f-be7b0876ace4">
+      <ns1:TimeParameters>
+        <ns1:ProcessingTime>
+          <ns1:ResultRequest>min</ns1:ResultRequest>
+          <ns1:ResultRequest>max</ns1:ResultRequest>
+          <ns1:ResultRequest>mean</ns1:ResultRequest>
+          <ns1:ResultRequest>count</ns1:ResultRequest>
+          <ns1:ResultRequest>sum</ns1:ResultRequest>
+          <ns1:LogNormalDistribution mean="12" standardDeviation="2" />
+        </ns1:ProcessingTime>
+      </ns1:TimeParameters>
+      <ns1:PropertyParameters />
+    </ns1:ElementParameters>
+    <ns1:ElementParameters elementRef="Id_cc99e0d2-6ae4-442b-b7cc-f0bab7fd42a0">
+      <ns1:TimeParameters>
+        <ns1:ProcessingTime>
+          <ns1:ResultRequest>min</ns1:ResultRequest>
+          <ns1:ResultRequest>max</ns1:ResultRequest>
+          <ns1:ResultRequest>mean</ns1:ResultRequest>
+          <ns1:ResultRequest>count</ns1:ResultRequest>
+          <ns1:ResultRequest>sum</ns1:ResultRequest>
+          <ns1:BetaDistribution shape="13" scale="2" />
+        </ns1:ProcessingTime>
+      </ns1:TimeParameters>
+      <ns1:PropertyParameters />
+    </ns1:ElementParameters>
+    <ns1:ElementParameters elementRef="Id_32a0ec95-9b07-42a4-baef-71caee636f69">
+      <ns1:TimeParameters>
+        <ns1:ProcessingTime>
+          <ns1:ResultRequest>min</ns1:ResultRequest>
+          <ns1:ResultRequest>max</ns1:ResultRequest>
+          <ns1:ResultRequest>mean</ns1:ResultRequest>
+          <ns1:ResultRequest>count</ns1:ResultRequest>
+          <ns1:ResultRequest>sum</ns1:ResultRequest>
+          <ns1:NegativeExponentialDistribution mean="14" />
+        </ns1:ProcessingTime>
+      </ns1:TimeParameters>
+      <ns1:PropertyParameters />
+    </ns1:ElementParameters>
+    <ns1:ElementParameters elementRef="Id_f208dac8-932d-4d75-92de-196007c41fdf">
+      <ns1:TimeParameters>
+        <ns1:ProcessingTime>
+          <ns1:ResultRequest>min</ns1:ResultRequest>
+          <ns1:ResultRequest>max</ns1:ResultRequest>
+          <ns1:ResultRequest>mean</ns1:ResultRequest>
+          <ns1:ResultRequest>count</ns1:ResultRequest>
+          <ns1:ResultRequest>sum</ns1:ResultRequest>
+          <ns1:GammaDistribution shape="15" scale="2" />
+        </ns1:ProcessingTime>
+      </ns1:TimeParameters>
+      <ns1:PropertyParameters />
+    </ns1:ElementParameters>
+    <ns1:ElementParameters elementRef="Id_a1d69064-746a-427b-b315-4f721c9df016">
+      <ns1:TimeParameters>
+        <ns1:ProcessingTime>
+          <ns1:ResultRequest>min</ns1:ResultRequest>
+          <ns1:ResultRequest>max</ns1:ResultRequest>
+          <ns1:ResultRequest>mean</ns1:ResultRequest>
+          <ns1:ResultRequest>count</ns1:ResultRequest>
+          <ns1:ResultRequest>sum</ns1:ResultRequest>
+          <ns1:ErlangDistribution mean="16" k="2" />
+        </ns1:ProcessingTime>
+      </ns1:TimeParameters>
+      <ns1:PropertyParameters />
+    </ns1:ElementParameters>
+    <ns1:ElementParameters elementRef="Id_7338675c-6cfb-4595-b4a3-09ebf9028fb1">
+      <ns1:TimeParameters>
+        <ns1:ProcessingTime>
+          <ns1:ResultRequest>min</ns1:ResultRequest>
+          <ns1:ResultRequest>max</ns1:ResultRequest>
+          <ns1:ResultRequest>mean</ns1:ResultRequest>
+          <ns1:ResultRequest>count</ns1:ResultRequest>
+          <ns1:ResultRequest>sum</ns1:ResultRequest>
+          <ns1:WeibullDistribution shape="17" scale="2" />
+        </ns1:ProcessingTime>
+      </ns1:TimeParameters>
+      <ns1:PropertyParameters />
+    </ns1:ElementParameters>
+    <ns1:ElementParameters elementRef="Id_7be971b4-8588-4c54-a612-9932047bfcaf">
+      <ns1:TimeParameters>
+        <ns1:ProcessingTime>
+          <ns1:ResultRequest>min</ns1:ResultRequest>
+          <ns1:ResultRequest>max</ns1:ResultRequest>
+          <ns1:ResultRequest>mean</ns1:ResultRequest>
+          <ns1:ResultRequest>count</ns1:ResultRequest>
+          <ns1:ResultRequest>sum</ns1:ResultRequest>
+          <ns1:BinomialDistribution probability="0.7" trials="2" />
+        </ns1:ProcessingTime>
+      </ns1:TimeParameters>
+      <ns1:PropertyParameters />
+    </ns1:ElementParameters>
+    <ns1:ElementParameters elementRef="Id_9560b2dc-83be-4211-a951-aad0a1e4e94d">
+      <ns1:TimeParameters>
+        <ns1:ProcessingTime>
+          <ns1:ResultRequest>min</ns1:ResultRequest>
+          <ns1:ResultRequest>max</ns1:ResultRequest>
+          <ns1:ResultRequest>mean</ns1:ResultRequest>
+          <ns1:ResultRequest>count</ns1:ResultRequest>
+          <ns1:ResultRequest>sum</ns1:ResultRequest>
+          <ns1:PoissonDistribution mean="19" />
+        </ns1:ProcessingTime>
+      </ns1:TimeParameters>
+      <ns1:PropertyParameters />
+    </ns1:ElementParameters>
+  </ns1:Scenario>
+</ns1:BPSimData>

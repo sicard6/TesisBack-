@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<ns1:BPSimData simulationLevel="LevelTwo" xmlns:ns1="http://www.bpsim.org/schemas/1.0">
+  <ns1:Scenario id="Scenario_39587776-4bc2-4116-897c-4c5882e3d2c0" name="Escenario 1" author="david" version="1.0">
+    <ns1:ScenarioParameters>
+      <ns1:Duration>
+        <ns1:DurationParameter value="P30D" />
+      </ns1:Duration>
+    </ns1:ScenarioParameters>
+    <ns1:ElementParameters elementRef="Id_5bb55de5-ea1d-4a02-8fe0-666e4120b2ca">
+      <ns1:ControlParameters>
+        <ns1:InterTriggerTimer>
+          <ns1:ResultRequest>min</ns1:ResultRequest>
+          <ns1:ResultRequest>max</ns1:ResultRequest>
+          <ns1:ResultRequest>mean</ns1:ResultRequest>
+          <ns1:ResultRequest>sum</ns1:ResultRequest>
+          <ns1:NumericParameter value="1" />
+        </ns1:InterTriggerTimer>
+        <ns1:TriggerCount>
+          <ns1:ResultRequest>count</ns1:ResultRequest>
+          <ns1:NumericParameter value="3" />
+        </ns1:TriggerCount>
+      </ns1:ControlParameters>
+    </ns1:ElementParameters>
+    <ns1:ElementParameters elementRef="Id_b2950307-61db-407f-b475-cede4e23a748">
+      <ns1:TimeParameters>
+        <ns1:ProcessingTime>
+          <ns1:ResultRequest>min</ns1:ResultRequest>
+          <ns1:ResultRequest>max</ns1:ResultRequest>
+          <ns1:ResultRequest>mean</ns1:ResultRequest>
+          <ns1:ResultRequest>count</ns1:ResultRequest>
+          <ns1:ResultRequest>sum</ns1:ResultRequest>
+          <ns1:DurationParameter value="PT1M" />
+        </ns1:ProcessingTime>
+      </ns1:TimeParameters>
+    </ns1:ElementParameters>
+    <ns1:ElementParameters elementRef="Id_3ed7d407-2461-4afd-a13f-a693908275c2">
+      <ns1:ControlParameters>
+        <ns1:InterTriggerTimer>
+          <ns1:ResultRequest>min</ns1:ResultRequest>
+          <ns1:ResultRequest>max</ns1:ResultRequest>
+          <ns1:ResultRequest>mean</ns1:ResultRequest>
+          <ns1:ResultRequest>sum</ns1:ResultRequest>
+          <ns1:NumericParameter value="2" />
+        </ns1:InterTriggerTimer>
+      </ns1:ControlParameters>
+    </ns1:ElementParameters>
+    <ns1:ElementParameters elementRef="Id_21563522-024f-4337-b71f-2b22690efdf0">
+      <ns1:ControlParameters>
+        <ns1:InterTriggerTimer>
+          <ns1:ResultRequest>min</ns1:ResultRequest>
+          <ns1:ResultRequest>max</ns1:ResultRequest>
+          <ns1:ResultRequest>mean</ns1:ResultRequest>
+          <ns1:ResultRequest>sum</ns1:ResultRequest>
+          <ns1:NumericParameter value="1" />
+        </ns1:InterTriggerTimer>
+      </ns1:ControlParameters>
+    </ns1:ElementParameters>
+    <ns1:ElementParameters elementRef="Id_70b3d5fd-7862-4b14-8e85-09eb85731834">
+      <ns1:ControlParameters>
+        <ns1:InterTriggerTimer>
+          <ns1:ResultRequest>min</ns1:ResultRequest>
+          <ns1:ResultRequest>max</ns1:ResultRequest>
+          <ns1:ResultRequest>mean</ns1:ResultRequest>
+          <ns1:ResultRequest>sum</ns1:ResultRequest>
+          <ns1:NumericParameter value="3" />
+        </ns1:InterTriggerTimer>
+      </ns1:ControlParameters>
+    </ns1:ElementParameters>
+  </ns1:Scenario>
+</ns1:BPSimData>

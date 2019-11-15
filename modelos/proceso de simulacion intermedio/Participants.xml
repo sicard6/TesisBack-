@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<Participants xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.wfmc.org/2009/XPDL2.2">
+  <Participant Id="177c1738-266b-404f-a7e7-2a00e4027f61" Name="R Tarea 1">
+    <ParticipantType Type="ROLE" />
+    <Description>recurso de la tarea 1</Description>
+    <ExtendedAttributes>
+      <ExtendedAttribute Name="RTarea1" />
+    </ExtendedAttributes>
+  </Participant>
+  <Participant Id="ed9de7be-00b8-42f7-81d0-12d703dbbf76" Name="R tarea 2-4">
+    <ParticipantType Type="ROLE" />
+    <Description>Recurso que maneja las tareas 2, 3 y 4</Description>
+    <ExtendedAttributes>
+      <ExtendedAttribute Name="Rtarea2-4" />
+    </ExtendedAttributes>
+  </Participant>
+  <Participant Id="5d750283-482d-44e4-a281-2d0c06e173e8" Name="R tarea 5">
+    <ParticipantType Type="ROLE" />
+    <Description>Recurso que trabaja la tarea 5</Description>
+    <ExtendedAttributes>
+      <ExtendedAttribute Name="Rtarea5" />
+    </ExtendedAttributes>
+  </Participant>
+</Participants>

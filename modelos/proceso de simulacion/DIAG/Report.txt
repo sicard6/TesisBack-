@@ -1,0 +1,41 @@
+name,type,completedInstances,minTime,maxTime,avgTime,totalTime,minResourceWaitTime,maxResourceWaitTime,avgResourceWaitTime,resourceWaitStandardDeviation,totalResourceWaitTime
+Proceso-Evento inicial,StartEvent,3,0,0,0,0,0,0,0,0.0,0
+Proceso-Tarea 5End,Task,3,10,10,10,45,0,0,0,0.0,0
+Proceso-Tarea 6 (flotante)End,Task,3,6,6,6,36,0,0,0,0.0,0
+Proceso-Tarea 7(numerico)End,Task,3,7,7,7,42,0,0,0,0.0,0
+Proceso-Tarea 8 (normal)End,Task,3,8,8,8,48,0,0,0,0.0,0
+Proceso-Tarea 9 (normal truncada)End,Task,3,3,3,3,18,0,0,0,0.0,0
+Proceso-Tarea 10 (triangular)End,Task,3,9,9,9,54,0,0,0,0.0,0
+Proceso-Tarea 11 (uniforme)End,Task,3,12,12,12,72,0,0,0,0.0,0
+Proceso-Tarea 12 (lognormal)End,Task,3,18,18,18,108,0,0,0,0.0,0
+Proceso-Tarea 13 (beta)End,Task,3,0,0,0,0,0,0,0,0.0,0
+Proceso-Tarea 14 (exponencial negativa)End,Task,3,3,3,3,18,0,0,0,0.0,0
+Proceso-Tarea 15 (gamma)End,Task,3,27,27,27,162,0,0,0,0.0,0
+Proceso-Tarea 16 (erlang)End,Task,3,0,0,0,0,0,0,0,0.0,0
+Proceso-Tarea 17 (weibull)End,Task,3,2,2,2,12,0,0,0,0.0,0
+Proceso-Tarea 18 (binomial)End,Task,3,2,2,2,12,0,0,0,0.0,0
+Proceso-Tarea 19 (poisson)End,Task,3,16,16,16,96,0,0,0,0.0,0
+Proceso-Tarea 1End,Task,3,1,1,1,6,0,0,0,0.0,0
+Proceso-abre gateway,Gateway,3,0,0,0,0,0,0,0,0.0,0
+Proceso-Tarea 3End,Task,3,3,3,3,18,0,0,0,0.0,0
+Proceso-cierra gateway,Gateway,3,0,0,0,0,0,0,0,0.0,0
+Proceso-Tarea 4End,Task,3,4,4,4,24,0,0,0,0.0,0
+Proceso-Evento final,EndEvent,3,0,0,0,0,0,0,0,0.0,0
+gateway paralelo y tiempos intermedios-Evento Inicial,StartEvent,3,0,0,0,0,0,0,0,0.0,0
+gateway paralelo y tiempos intermedios-Tarea 1End,Task,3,2,2,2,9,0,0,0,0.0,0
+gateway paralelo y tiempos intermedios-gateway abre,Gateway,3,0,0,0,0,0,0,0,0.0,0
+gateway paralelo y tiempos intermedios-Tarea 2 (Normal)End,Task,3,22,22,22,72,0,0,0,0.0,0
+gateway paralelo y tiempos intermedios-Tarea 3 (Triangular)End,Task,3,9,9,9,36,22,22,22,0.0,66
+gateway paralelo y tiempos intermedios-Tarea 4End,Task,3,8,8,8,36,9,9,9,0.0,27
+gateway paralelo y tiempos intermedios-gateway cierra,Gateway,9,0,0,0,0,0,0,0,0.0,0
+gateway paralelo y tiempos intermedios-Tarea 5 (1 y 5)End,Task,3,10,10,10,45,0,0,0,0.0,0
+gateway paralelo y tiempos intermedios-Evento final,EndEvent,3,0,0,0,0,0,0,0,0.0,0
+Proceso 1-P2 Evento Inicial,StartEvent,3,0,0,0,0,0,0,0,0.0,0
+Proceso 1-P2 Tarea 1End,Task,3,1,1,1,6,0,0,0,0.0,0
+Proceso 1-P2 gateway abre,Gateway,3,0,0,0,0,0,0,0,0.0,0
+Proceso 1-P2 Tarea 3 End,Task,3,3,3,3,18,0,0,0,0.0,0
+Proceso 1-P2 Tarea 2End,Task,3,2,2,2,12,3,3,3,0.0,9
+Proceso 1-P2 Tarea 4End,Task,3,4,4,4,24,2,2,2,0.0,6
+Proceso 1-P2 gateway cierra,Gateway,9,0,0,0,0,0,0,0,0.0,0
+Proceso 1-P2 Tarea 5 (1 y 5)End,Task,3,5,5,5,30,0,0,0,0.0,0
+Proceso 1-P2 Evento final,EndEvent,3,0,0,0,0,0,0,0,0.0,0

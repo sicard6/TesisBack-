@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<ns1:BPSimData simulationLevel="LevelThree" xmlns:ns1="http://www.bpsim.org/schemas/1.0">
+  <ns1:Scenario id="Scenario_d6c23a84-f90d-441a-821c-6f5827de0479" name="Escenario 1" author="david" version="1.0">
+    <ns1:ScenarioParameters>
+      <ns1:PropertyParameters />
+    </ns1:ScenarioParameters>
+    <ns1:ElementParameters elementRef="Id_b9583333-02e3-4b91-a071-0aa432f89b27">
+      <ns1:TimeParameters>
+        <ns1:ProcessingTime>
+          <ns1:ResultRequest>min</ns1:ResultRequest>
+          <ns1:ResultRequest>max</ns1:ResultRequest>
+          <ns1:ResultRequest>mean</ns1:ResultRequest>
+          <ns1:ResultRequest>count</ns1:ResultRequest>
+          <ns1:ResultRequest>sum</ns1:ResultRequest>
+          <ns1:DurationParameter value="PT1M" />
+        </ns1:ProcessingTime>
+      </ns1:TimeParameters>
+      <ns1:ResourceParameters>
+        <ns1:Selection>
+          <ns1:ResultRequest>min</ns1:ResultRequest>
+          <ns1:ResultRequest>max</ns1:ResultRequest>
+          <ns1:ExpressionParameter value="bpsim:getResource(&quot;RTarea1&quot;,1)" />
+        </ns1:Selection>
+      </ns1:ResourceParameters>
+      <ns1:PropertyParameters />
+    </ns1:ElementParameters>
+    <ns1:ElementParameters elementRef="Id_0b78ec64-ebe1-4f64-a3b5-6b09942f7ac1">
+      <ns1:TimeParameters>
+        <ns1:ProcessingTime>
+          <ns1:ResultRequest>min</ns1:ResultRequest>
+          <ns1:ResultRequest>max</ns1:ResultRequest>
+          <ns1:ResultRequest>mean</ns1:ResultRequest>
+          <ns1:ResultRequest>count</ns1:ResultRequest>
+          <ns1:ResultRequest>sum</ns1:ResultRequest>
+          <ns1:DurationParameter value="PT2M" />
+        </ns1:ProcessingTime>
+      </ns1:TimeParameters>
+      <ns1:ResourceParameters>
+        <ns1:Selection>
+          <ns1:ResultRequest>min</ns1:ResultRequest>
+          <ns1:ResultRequest>max</ns1:ResultRequest>
+          <ns1:ExpressionParameter value="bpsim:getResource(&quot;RTarea2-4&quot;,3)" />
+        </ns1:Selection>
+      </ns1:ResourceParameters>
+      <ns1:PropertyParameters />
+    </ns1:ElementParameters>
+    <ns1:ElementParameters elementRef="Id_4fdb4598-eb2a-49a7-abd1-33a6566bd718">
+      <ns1:TimeParameters>
+        <ns1:ProcessingTime>
+          <ns1:ResultRequest>min</ns1:ResultRequest>
+          <ns1:ResultRequest>max</ns1:ResultRequest>
+          <ns1:ResultRequest>mean</ns1:ResultRequest>
+          <ns1:ResultRequest>count</ns1:ResultRequest>
+          <ns1:ResultRequest>sum</ns1:ResultRequest>
+          <ns1:DurationParameter value="PT3M" />
+        </ns1:ProcessingTime>
+      </ns1:TimeParameters>
+      <ns1:ResourceParameters>
+        <ns1:Selection>
+          <ns1:ResultRequest>min</ns1:ResultRequest>
+          <ns1:ResultRequest>max</ns1:ResultRequest>
+          <ns1:ExpressionParameter value="bpsim:getResource(&quot;RTarea2-4&quot;,3)" />
+        </ns1:Selection>
+      </ns1:ResourceParameters>
+      <ns1:PropertyParameters />
+    </ns1:ElementParameters>
+    <ns1:ElementParameters elementRef="Id_24bda056-ab6f-4749-9737-a5e62bb3b526">
+      <ns1:TimeParameters>
+        <ns1:ProcessingTime>
+          <ns1:ResultRequest>min</ns1:ResultRequest>
+          <ns1:ResultRequest>max</ns1:ResultRequest>
+          <ns1:ResultRequest>mean</ns1:ResultRequest>
+          <ns1:ResultRequest>count</ns1:ResultRequest>
+          <ns1:ResultRequest>sum</ns1:ResultRequest>
+          <ns1:DurationParameter value="PT4M" />
+        </ns1:ProcessingTime>
+      </ns1:TimeParameters>
+      <ns1:ResourceParameters>
+        <ns1:Selection>
+          <ns1:ResultRequest>min</ns1:ResultRequest>
+          <ns1:ResultRequest>max</ns1:ResultRequest>
+          <ns1:ExpressionParameter value="bpsim:getResource(&quot;RTarea2-4&quot;,4)" />
+        </ns1:Selection>
+      </ns1:ResourceParameters>
+      <ns1:PropertyParameters />
+    </ns1:ElementParameters>
+    <ns1:ElementParameters elementRef="Id_6cbe9edb-47dd-4c93-aac6-d02d8e806934">
+      <ns1:TimeParameters>
+        <ns1:ProcessingTime>
+          <ns1:ResultRequest>min</ns1:ResultRequest>
+          <ns1:ResultRequest>max</ns1:ResultRequest>
+          <ns1:ResultRequest>mean</ns1:ResultRequest>
+          <ns1:ResultRequest>count</ns1:ResultRequest>
+          <ns1:ResultRequest>sum</ns1:ResultRequest>
+          <ns1:DurationParameter value="PT5M" />
+        </ns1:ProcessingTime>
+      </ns1:TimeParameters>
+      <ns1:ResourceParameters>
+        <ns1:Selection>
+          <ns1:ResultRequest>min</ns1:ResultRequest>
+          <ns1:ResultRequest>max</ns1:ResultRequest>
+          <ns1:ExpressionParameter value="bpsim:getResource(&quot;RTarea1&quot;,1) | getResource(&quot;RTarea5&quot;,5)" />
+        </ns1:Selection>
+      </ns1:ResourceParameters>
+      <ns1:PropertyParameters />
+    </ns1:ElementParameters>
+    <ns1:ElementParameters elementRef="Id_98f7296d-45ba-4ab7-8c19-846f92a61a62">
+      <ns1:ControlParameters>
+        <ns1:InterTriggerTimer>
+          <ns1:ResultRequest>min</ns1:ResultRequest>
+          <ns1:ResultRequest>max</ns1:ResultRequest>
+          <ns1:ResultRequest>mean</ns1:ResultRequest>
+          <ns1:ResultRequest>sum</ns1:ResultRequest>
+          <ns1:NumericParameter value="5" />
+        </ns1:InterTriggerTimer>
+        <ns1:TriggerCount>
+          <ns1:ResultRequest>count</ns1:ResultRequest>
+          <ns1:NumericParameter value="3" />
+        </ns1:TriggerCount>
+      </ns1:ControlParameters>
+      <ns1:PropertyParameters />
+    </ns1:ElementParameters>
+    <ns1:ElementParameters elementRef="RTarea1">
+      <ns1:ResourceParameters>
+        <ns1:Quantity>
+          <ns1:NumericParameter value="1" />
+        </ns1:Quantity>
+      </ns1:ResourceParameters>
+      <ns1:PropertyParameters />
+    </ns1:ElementParameters>
+    <ns1:ElementParameters elementRef="RTarea2-4">
+      <ns1:ResourceParameters>
+        <ns1:Quantity>
+          <ns1:NumericParameter value="4" />
+        </ns1:Quantity>
+      </ns1:ResourceParameters>
+      <ns1:PropertyParameters />
+    </ns1:ElementParameters>
+    <ns1:ElementParameters elementRef="RTarea5">
+      <ns1:ResourceParameters>
+        <ns1:Quantity>
+          <ns1:NumericParameter value="5" />
+        </ns1:Quantity>
+      </ns1:ResourceParameters>
+      <ns1:PropertyParameters />
+    </ns1:ElementParameters>
+  </ns1:Scenario>
+</ns1:BPSimData>
