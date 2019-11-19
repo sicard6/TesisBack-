@@ -1,8 +1,12 @@
 package server;
 
+import java.io.File;
+import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.InetSocketAddress;
+import java.nio.file.StandardCopyOption;
 
 import javax.swing.JFileChooser;
 import javax.swing.filechooser.FileNameExtensionFilter;
@@ -32,55 +36,13 @@ public class Server {
 	public Server() throws IOException {
 		FileNameExtensionFilter filter = new FileNameExtensionFilter(
 				"xml Files", "xml");
-		JFileChooser fileChooser  = new JFileChooser("../");
-		fileChooser.setFileFilter(filter);
-		fileChooser.showOpenDialog(null);
-		String r = fileChooser.getSelectedFile().getAbsolutePath();
 		HttpServer server = HttpServer.create(new InetSocketAddress(8500), 0);
-		HttpContext context = server.createContext("/prueba", new HandlerPrueba(r));
+		HttpContext context2 = server.createContext("/MakeDiagram", new HandlerDiagramMaker());
 		server.setExecutor(null); // creates a default executor
 		server.start();
 
 	}
-
-	public class HandlerPrueba implements HttpHandler{
-		
-		private DiagramPackage diagramPackage;
-		
-		private ObjectMapper mapper;
-		
-		public HandlerPrueba(String route) {
-			
-			mapper = new ObjectMapper();
-			
-			
-			BPMNDiagramReader diagramReader = new BPMNDiagramReader();
-			diagramPackage = diagramReader.readDiagram(route);
-
-		}
-
-		@Override
-		public void handle(HttpExchange t) throws IOException {
-			
-			byte [] response = "Welcome Real's HowTo test page".getBytes();
-			
-			try {
-				String json = mapper.writeValueAsString(diagramPackage);
-				System.out.println(json);
-				response = json.getBytes();
-			} catch (JsonProcessingException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-
-			
-			t.sendResponseHeaders(200, response.length);
-			OutputStream os = t.getResponseBody();
-			os.write(response);
-			os.close();
-
-		}
-
-	}
+	
+	
 
 }

@@ -1,0 +1,670 @@
+<?xml version="1.0"?>
+<Package xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OnlyOneProcess="false" Id="653f7423-5673-4ef3-9abd-72794203a31e" Name="Diagrama 1" xmlns="http://www.wfmc.org/2009/XPDL2.2">
+  <PackageHeader>
+    <XPDLVersion>2.2</XPDLVersion>
+    <Vendor>Bizagi Process Modeler.</Vendor>
+    <Created>2019-05-31T12:11:59.1532712-05:00</Created>
+    <ModificationDate>2019-06-03T20:32:49.5741656-05:00</ModificationDate>
+    <Description>Diagrama 1</Description>
+    <Documentation />
+    <CreationVersion>3.3.2.033</CreationVersion>
+    <Version>3.3.2.033</Version>
+    <Modifications>
+      <Modification Date="2019-05-31T17:14:36.121537Z" UserName="c2baab2b-a3f5-43b4-b704-4a824c1b2983" />
+      <Modification Date="2019-05-31T17:54:06.1888408Z" UserName="c2baab2b-a3f5-43b4-b704-4a824c1b2983" />
+      <Modification Date="2019-05-31T21:56:31.993706Z" UserName="c2baab2b-a3f5-43b4-b704-4a824c1b2983" />
+      <Modification Date="2019-05-31T22:26:21.5338528Z" UserName="c2baab2b-a3f5-43b4-b704-4a824c1b2983" />
+      <Modification Date="2019-05-31T22:58:26.0547144Z" UserName="c2baab2b-a3f5-43b4-b704-4a824c1b2983" />
+      <Modification Date="2019-06-04T00:22:56.2439216Z" UserName="c2baab2b-a3f5-43b4-b704-4a824c1b2983" />
+      <Modification Date="2019-06-04T01:32:49.5741656Z" UserName="laptop-nr86ii5f_david" />
+    </Modifications>
+  </PackageHeader>
+  <RedefinableHeader>
+    <Author>david</Author>
+    <Version>1.0</Version>
+    <Countrykey>CO</Countrykey>
+  </RedefinableHeader>
+  <ExternalPackages />
+  <Pools>
+    <Pool Id="8180fec0-9ce1-4910-814f-af6527d1da04" Name="Proceso principal" Process="5d31adf1-354b-4b24-971d-5dbf01336add" BoundaryVisible="false">
+      <Lanes />
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="350" Width="700" BorderColor="-16777216" FillColor="-1">
+          <Coordinates XCoordinate="30" YCoordinate="30" />
+          <Formatting>
+            <Alignment>Center</Alignment>
+            <FontName>Segoe UI</FontName>
+            <SizeFont>10</SizeFont>
+            <Bold>true</Bold>
+            <Italic>false</Italic>
+            <Strikeout>false</Strikeout>
+            <Underline>false</Underline>
+            <ColorFont>-16777216</ColorFont>
+          </Formatting>
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Pool>
+    <Pool Id="a2446efa-3280-43a6-913e-488737cb78f7" Name="Proceso 1" Process="72d2ffb4-da0e-41a3-b29c-65e23cec4431" BoundaryVisible="true">
+      <Lanes />
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="350" Width="869" BorderColor="-16777216" FillColor="-1">
+          <Coordinates XCoordinate="30" YCoordinate="30" />
+          <Formatting>
+            <Alignment>Center</Alignment>
+            <FontName>Segoe UI</FontName>
+            <SizeFont>8</SizeFont>
+            <Bold>true</Bold>
+            <Italic>false</Italic>
+            <Strikeout>false</Strikeout>
+            <Underline>false</Underline>
+            <ColorFont>-16777216</ColorFont>
+          </Formatting>
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Pool>
+  </Pools>
+  <WorkflowProcesses>
+    <WorkflowProcess Id="5d31adf1-354b-4b24-971d-5dbf01336add" Name="Proceso principal">
+      <ProcessHeader>
+        <Created>2019-06-03T20:32:49.590123-05:00</Created>
+        <Description />
+      </ProcessHeader>
+      <RedefinableHeader>
+        <Author />
+        <Version />
+        <Countrykey>CO</Countrykey>
+      </RedefinableHeader>
+      <ActivitySets />
+      <DataInputOutputs />
+      <ExtendedAttributes>
+        <ExtendedAttribute Name="RuntimeProperties" Value="{&quot;processClassProperties&quot;:{&quot;displayName&quot;:&quot;Proceso principal&quot;,&quot;accessType&quot;:&quot;Process&quot;,&quot;order&quot;:1,&quot;useParentCaseNumber&quot;:true,&quot;enableAlarms&quot;:true,&quot;enableNotifications&quot;:true,&quot;creationDate&quot;:&quot;2019-05-31T12:11:59.1692685-05:00&quot;},&quot;processProperties&quot;:{&quot;version&quot;:{&quot;numberVersion&quot;:&quot;1.0&quot;,&quot;isActive&quot;:true},&quot;versionCreationDate&quot;:&quot;2019-05-31T12:11:59.1692685-05:00&quot;,&quot;supportsScopes&quot;:true,&quot;caseAccessType&quot;:&quot;Public&quot;,&quot;renderVersion&quot;:2,&quot;formsVersion&quot;:0}}" />
+      </ExtendedAttributes>
+    </WorkflowProcess>
+    <WorkflowProcess Id="72d2ffb4-da0e-41a3-b29c-65e23cec4431" Name="Proceso 1">
+      <ProcessHeader>
+        <Created>2019-06-03T20:32:49.6210408-05:00</Created>
+        <Description />
+      </ProcessHeader>
+      <RedefinableHeader>
+        <Author />
+        <Version />
+        <Countrykey>CO</Countrykey>
+      </RedefinableHeader>
+      <ActivitySets />
+      <DataInputOutputs />
+      <Activities>
+        <Activity Id="43491127-bb64-42ca-bd12-374804c06845" Name="tiempo evento inicial">
+          <Description />
+          <Event>
+            <StartEvent Trigger="None" />
+          </Event>
+          <Documentation />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-10311914" FillColor="-1638505" BorderVisible="true" TextX="80" TextY="236" TextWidth="89" TextHeight="45">
+              <Coordinates XCoordinate="109" YCoordinate="200" />
+              <Formatting>
+                <Alignment>Center</Alignment>
+                <FontName>Segoe UI</FontName>
+                <SizeFont>8</SizeFont>
+                <Bold>false</Bold>
+                <Italic>false</Italic>
+                <Strikeout>false</Strikeout>
+                <Underline>false</Underline>
+                <ColorFont>-16777216</ColorFont>
+              </Formatting>
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+          <ExtendedAttributes>
+            <ExtendedAttribute Name="RuntimeProperties" Value="{}" />
+          </ExtendedAttributes>
+        </Activity>
+        <Activity Id="4619f8f0-f0ee-4d4f-8944-f04aacca9b07" Name="tiempo Tarea 1">
+          <Description />
+          <Implementation>
+            <Task />
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <Loop LoopType="None" />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" FillColor="-1249281" BorderVisible="true">
+              <Coordinates XCoordinate="176" YCoordinate="185" />
+              <Formatting>
+                <Alignment>Center</Alignment>
+                <FontName>Segoe UI</FontName>
+                <SizeFont>8</SizeFont>
+                <Bold>false</Bold>
+                <Italic>false</Italic>
+                <Strikeout>false</Strikeout>
+                <Underline>false</Underline>
+                <ColorFont>-16777216</ColorFont>
+              </Formatting>
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+          <ExtendedAttributes />
+        </Activity>
+        <Activity Id="aea9e508-9950-44af-9467-e014fd3423c2" Name="tiempo Tarea 3">
+          <Description />
+          <Implementation>
+            <Task />
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <Loop LoopType="None" />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" FillColor="-1249281" BorderVisible="true">
+              <Coordinates XCoordinate="498" YCoordinate="185" />
+              <Formatting>
+                <Alignment>Center</Alignment>
+                <FontName>Segoe UI</FontName>
+                <SizeFont>8</SizeFont>
+                <Bold>false</Bold>
+                <Italic>false</Italic>
+                <Strikeout>false</Strikeout>
+                <Underline>false</Underline>
+                <ColorFont>-16777216</ColorFont>
+              </Formatting>
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+          <ExtendedAttributes />
+        </Activity>
+        <Activity Id="6d0bd2ea-13c8-413a-ab4a-f0027d090c97" Name="">
+          <Description />
+          <Event>
+            <EndEvent Result="None" />
+          </Event>
+          <Documentation />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-6750208" FillColor="-1135958" BorderVisible="true" TextX="821" TextY="239" TextWidth="90" TextHeight="60">
+              <Coordinates XCoordinate="851" YCoordinate="203" />
+              <Formatting>
+                <Alignment>Center</Alignment>
+                <FontName>Segoe UI</FontName>
+                <SizeFont>8</SizeFont>
+                <Bold>false</Bold>
+                <Italic>false</Italic>
+                <Strikeout>false</Strikeout>
+                <Underline>false</Underline>
+                <ColorFont>-16777216</ColorFont>
+              </Formatting>
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+          <ExtendedAttributes />
+        </Activity>
+        <Activity Id="d6c53d85-5806-4fcc-832f-03a5d434afe5" Name="tiempo evento adjunto tiempo">
+          <Description />
+          <Event>
+            <IntermediateEvent Trigger="Timer" Target="aea9e508-9950-44af-9467-e014fd3423c2" IsAttached="true">
+              <TriggerTimer TimeCycle="R1/PT1M" />
+            </IntermediateEvent>
+          </Event>
+          <Documentation />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="22" Width="22" BorderColor="-6909623" FillColor="-66833" BorderVisible="false">
+              <Coordinates XCoordinate="514" YCoordinate="234" />
+              <Formatting>
+                <Alignment>Center</Alignment>
+                <FontName>Segoe UI</FontName>
+                <SizeFont>8</SizeFont>
+                <Bold>false</Bold>
+                <Italic>false</Italic>
+                <Strikeout>false</Strikeout>
+                <Underline>false</Underline>
+                <ColorFont>-16777216</ColorFont>
+              </Formatting>
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+          <ExtendedAttributes />
+        </Activity>
+        <Activity Id="67438f57-0e54-4bdd-94bf-72cb6b5615c6" Name="tiempo Tarea 4">
+          <Description />
+          <Implementation>
+            <Task />
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <Loop LoopType="None" />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" FillColor="-1249281" BorderVisible="true">
+              <Coordinates XCoordinate="556" YCoordinate="297" />
+              <Formatting>
+                <Alignment>Center</Alignment>
+                <FontName>Segoe UI</FontName>
+                <SizeFont>8</SizeFont>
+                <Bold>false</Bold>
+                <Italic>false</Italic>
+                <Strikeout>false</Strikeout>
+                <Underline>false</Underline>
+                <ColorFont>-16777216</ColorFont>
+              </Formatting>
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+          <ExtendedAttributes />
+        </Activity>
+        <Activity Id="c28e385f-e775-435b-8b3d-6cf7c499bc4a" Name="tiempo evento intermedio tiempo">
+          <Description />
+          <Event>
+            <IntermediateEvent Trigger="Timer">
+              <TriggerTimer TimeCycle="R1/PT30M" />
+            </IntermediateEvent>
+          </Event>
+          <Documentation />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="30" Width="30" BorderColor="-6909623" FillColor="-66833" BorderVisible="true" TextX="282" TextY="236" TextWidth="89" TextHeight="59">
+              <Coordinates XCoordinate="312" YCoordinate="200" />
+              <Formatting>
+                <Alignment>Center</Alignment>
+                <FontName>Segoe UI</FontName>
+                <SizeFont>8</SizeFont>
+                <Bold>false</Bold>
+                <Italic>false</Italic>
+                <Strikeout>false</Strikeout>
+                <Underline>false</Underline>
+                <ColorFont>-16777216</ColorFont>
+              </Formatting>
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+          <ExtendedAttributes>
+            <ExtendedAttribute Name="RuntimeProperties" Value="{&quot;cost&quot;:0}" />
+          </ExtendedAttributes>
+        </Activity>
+        <Activity Id="bb66cd76-8072-4aa4-a9ef-e27655dd7341" Name="tiempo Tarea 2">
+          <Description />
+          <Implementation>
+            <Task />
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <Loop LoopType="None" />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" FillColor="-1249281" BorderVisible="true">
+              <Coordinates XCoordinate="367" YCoordinate="138" />
+              <Formatting>
+                <Alignment>Center</Alignment>
+                <FontName>Segoe UI</FontName>
+                <SizeFont>8</SizeFont>
+                <Bold>false</Bold>
+                <Italic>false</Italic>
+                <Strikeout>false</Strikeout>
+                <Underline>false</Underline>
+                <ColorFont>-16777216</ColorFont>
+              </Formatting>
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+          <ExtendedAttributes />
+        </Activity>
+        <Activity Id="4fbe1eaa-162b-4ff1-aec7-e289ff2b63dd" Name="tiempo gateway abre">
+          <Description />
+          <Route MarkerVisible="true" />
+          <Documentation />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="40" Width="40" BorderColor="-5855715" FillColor="-52" BorderVisible="true" TextX="572" TextY="128" TextWidth="83" TextHeight="45">
+              <Coordinates XCoordinate="630" YCoordinate="156" />
+              <Formatting>
+                <Alignment>Center</Alignment>
+                <FontName>Segoe UI</FontName>
+                <SizeFont>8</SizeFont>
+                <Bold>false</Bold>
+                <Italic>false</Italic>
+                <Strikeout>false</Strikeout>
+                <Underline>false</Underline>
+                <ColorFont>-16777216</ColorFont>
+              </Formatting>
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+          <ExtendedAttributes />
+        </Activity>
+        <Activity Id="31e035f7-9012-48e1-842d-b132cec1e8be" Name="tiempo Tarea 5">
+          <Description />
+          <Implementation>
+            <Task />
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <Loop LoopType="None" />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" FillColor="-1249281" BorderVisible="true">
+              <Coordinates XCoordinate="693" YCoordinate="188" />
+              <Formatting>
+                <Alignment>Center</Alignment>
+                <FontName>Segoe UI</FontName>
+                <SizeFont>8</SizeFont>
+                <Bold>false</Bold>
+                <Italic>false</Italic>
+                <Strikeout>false</Strikeout>
+                <Underline>false</Underline>
+                <ColorFont>-16777216</ColorFont>
+              </Formatting>
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+          <ExtendedAttributes />
+        </Activity>
+        <Activity Id="ce3381f8-ab98-42c6-a1a1-5f77c3427c0c" Name="tiempo gateway cierra">
+          <Description />
+          <Route MarkerVisible="true" />
+          <Documentation />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="40" Width="40" BorderColor="-5855715" FillColor="-52" BorderVisible="true" TextX="784" TextY="187" TextWidth="88" TextHeight="45">
+              <Coordinates XCoordinate="808" YCoordinate="141" />
+              <Formatting>
+                <Alignment>Center</Alignment>
+                <FontName>Segoe UI</FontName>
+                <SizeFont>8</SizeFont>
+                <Bold>false</Bold>
+                <Italic>false</Italic>
+                <Strikeout>false</Strikeout>
+                <Underline>false</Underline>
+                <ColorFont>-16777216</ColorFont>
+              </Formatting>
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+          <ExtendedAttributes />
+        </Activity>
+        <Activity Id="40b13260-f0b7-400c-b2a3-9ef04fadf8ff" Name="tiempo Tarea 6">
+          <Description />
+          <Implementation>
+            <Task />
+          </Implementation>
+          <Performers />
+          <Documentation />
+          <Loop LoopType="None" />
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="BizAgi_Process_Modeler" Height="60" Width="90" BorderColor="-16553830" FillColor="-1249281" BorderVisible="true">
+              <Coordinates XCoordinate="694" YCoordinate="101" />
+              <Formatting>
+                <Alignment>Center</Alignment>
+                <FontName>Segoe UI</FontName>
+                <SizeFont>8</SizeFont>
+                <Bold>false</Bold>
+                <Italic>false</Italic>
+                <Strikeout>false</Strikeout>
+                <Underline>false</Underline>
+                <ColorFont>-16777216</ColorFont>
+              </Formatting>
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+          <ExtendedAttributes />
+        </Activity>
+      </Activities>
+      <Transitions>
+        <Transition Id="e3315821-14d8-41a4-b4fd-c965a8c8464f" From="43491127-bb64-42ca-bd12-374804c06845" To="4619f8f0-f0ee-4d4f-8944-f04aacca9b07">
+          <Condition />
+          <Description />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="-16777216" TextX="158" TextY="216" TextWidth="90" TextHeight="60">
+              <Formatting>
+                <Alignment>Near</Alignment>
+                <FontName>Segoe UI</FontName>
+                <SizeFont>8</SizeFont>
+                <Bold>false</Bold>
+                <Italic>false</Italic>
+                <Strikeout>false</Strikeout>
+                <Underline>false</Underline>
+                <ColorFont>-16777216</ColorFont>
+              </Formatting>
+              <Coordinates XCoordinate="139" YCoordinate="215" />
+              <Coordinates XCoordinate="176" YCoordinate="215" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+          <ExtendedAttributes />
+        </Transition>
+        <Transition Id="e16bb3a6-6d6f-4313-9eff-678ec6f56cac" From="4619f8f0-f0ee-4d4f-8944-f04aacca9b07" To="c28e385f-e775-435b-8b3d-6cf7c499bc4a">
+          <Condition />
+          <Description />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="-16777216" TextX="288" TextY="214" TextWidth="90" TextHeight="60">
+              <Formatting>
+                <Alignment>Near</Alignment>
+                <FontName>Segoe UI</FontName>
+                <SizeFont>8</SizeFont>
+                <Bold>false</Bold>
+                <Italic>false</Italic>
+                <Strikeout>false</Strikeout>
+                <Underline>false</Underline>
+                <ColorFont>-16777216</ColorFont>
+              </Formatting>
+              <Coordinates XCoordinate="266" YCoordinate="215" />
+              <Coordinates XCoordinate="312" YCoordinate="215" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+          <ExtendedAttributes />
+        </Transition>
+        <Transition Id="441cad48-bb59-4fd1-8f41-31fc6ebe8dce" From="bb66cd76-8072-4aa4-a9ef-e27655dd7341" To="aea9e508-9950-44af-9467-e014fd3423c2">
+          <Condition />
+          <Description />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo FromPort="4" ToolId="BizAgi_Process_Modeler" BorderColor="-16777216" TextX="478" TextY="192" TextWidth="90" TextHeight="60">
+              <Formatting>
+                <Alignment>Near</Alignment>
+                <FontName>Segoe UI</FontName>
+                <SizeFont>8</SizeFont>
+                <Bold>false</Bold>
+                <Italic>false</Italic>
+                <Strikeout>false</Strikeout>
+                <Underline>false</Underline>
+                <ColorFont>-16777216</ColorFont>
+              </Formatting>
+              <Coordinates XCoordinate="457" YCoordinate="168" />
+              <Coordinates XCoordinate="477.5" YCoordinate="168" />
+              <Coordinates XCoordinate="477.5" YCoordinate="215" />
+              <Coordinates XCoordinate="498" YCoordinate="215" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+          <ExtendedAttributes />
+        </Transition>
+        <Transition Id="404f93a9-f95f-47c6-94da-b6b82b684028" From="d6c53d85-5806-4fcc-832f-03a5d434afe5" To="67438f57-0e54-4bdd-94bf-72cb6b5615c6" Name="">
+          <Condition />
+          <Description />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo FromPort="6" ToolId="BizAgi_Process_Modeler" BorderColor="-16777216" TextX="563" TextY="273" TextWidth="90" TextHeight="60">
+              <Formatting>
+                <Alignment>Near</Alignment>
+                <FontName>Segoe UI</FontName>
+                <SizeFont>8</SizeFont>
+                <Bold>false</Bold>
+                <Italic>false</Italic>
+                <Strikeout>false</Strikeout>
+                <Underline>false</Underline>
+                <ColorFont>-16777216</ColorFont>
+              </Formatting>
+              <Coordinates XCoordinate="525" YCoordinate="245" />
+              <Coordinates XCoordinate="525" YCoordinate="273.5" />
+              <Coordinates XCoordinate="601" YCoordinate="273.5" />
+              <Coordinates XCoordinate="601" YCoordinate="297" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+          <ExtendedAttributes />
+        </Transition>
+        <Transition Id="82657577-dc15-48a9-9c80-9ec4e7381a00" From="67438f57-0e54-4bdd-94bf-72cb6b5615c6" To="6d0bd2ea-13c8-413a-ab4a-f0027d090c97">
+          <Condition />
+          <Description />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToPort="2" ToolId="BizAgi_Process_Modeler" BorderColor="-16777216" TextX="755" TextY="327" TextWidth="90" TextHeight="60">
+              <Formatting>
+                <Alignment>Near</Alignment>
+                <FontName>Segoe UI</FontName>
+                <SizeFont>8</SizeFont>
+                <Bold>false</Bold>
+                <Italic>false</Italic>
+                <Strikeout>false</Strikeout>
+                <Underline>false</Underline>
+                <ColorFont>-16777216</ColorFont>
+              </Formatting>
+              <Coordinates XCoordinate="646" YCoordinate="327" />
+              <Coordinates XCoordinate="866" YCoordinate="327" />
+              <Coordinates XCoordinate="866" YCoordinate="233" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+          <ExtendedAttributes />
+        </Transition>
+        <Transition Id="9ba6cfc1-d158-4edc-a83b-237066443ae7" From="c28e385f-e775-435b-8b3d-6cf7c499bc4a" To="bb66cd76-8072-4aa4-a9ef-e27655dd7341">
+          <Condition />
+          <Description />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="-16777216" TextX="355" TextY="192" TextWidth="90" TextHeight="60">
+              <Formatting>
+                <Alignment>Near</Alignment>
+                <FontName>Segoe UI</FontName>
+                <SizeFont>8</SizeFont>
+                <Bold>false</Bold>
+                <Italic>false</Italic>
+                <Strikeout>false</Strikeout>
+                <Underline>false</Underline>
+                <ColorFont>-16777216</ColorFont>
+              </Formatting>
+              <Coordinates XCoordinate="342" YCoordinate="215" />
+              <Coordinates XCoordinate="354.5" YCoordinate="215" />
+              <Coordinates XCoordinate="354.5" YCoordinate="168" />
+              <Coordinates XCoordinate="367" YCoordinate="168" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+          <ExtendedAttributes />
+        </Transition>
+        <Transition Id="5100ffe3-2f2a-4293-932a-bb6a73274588" From="aea9e508-9950-44af-9467-e014fd3423c2" To="4fbe1eaa-162b-4ff1-aec7-e289ff2b63dd">
+          <Condition />
+          <Description />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="BizAgi_Process_Modeler" BorderColor="-16777216" TextX="609" TextY="196" TextWidth="90" TextHeight="60">
+              <Formatting>
+                <Alignment>Near</Alignment>
+                <FontName>Segoe UI</FontName>
+                <SizeFont>8</SizeFont>
+                <Bold>false</Bold>
+                <Italic>false</Italic>
+                <Strikeout>false</Strikeout>
+                <Underline>false</Underline>
+                <ColorFont>-16777216</ColorFont>
+              </Formatting>
+              <Coordinates XCoordinate="588" YCoordinate="215" />
+              <Coordinates XCoordinate="609" YCoordinate="215" />
+              <Coordinates XCoordinate="609" YCoordinate="176" />
+              <Coordinates XCoordinate="630" YCoordinate="176" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+          <ExtendedAttributes />
+        </Transition>
+        <Transition Id="f75d3bf9-3b23-4d3b-a56f-388e49f6d3e9" From="4fbe1eaa-162b-4ff1-aec7-e289ff2b63dd" To="40b13260-f0b7-400c-b2a3-9ef04fadf8ff" Name="Si">
+          <Condition Type="CONDITION">
+            <Expression />
+          </Condition>
+          <Description />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo FromPort="1" ToolId="BizAgi_Process_Modeler" BorderColor="-16777216" TextX="650" TextY="142" TextWidth="50" TextHeight="30">
+              <Formatting>
+                <Alignment>Near</Alignment>
+                <FontName>Segoe UI</FontName>
+                <SizeFont>8</SizeFont>
+                <Bold>false</Bold>
+                <Italic>false</Italic>
+                <Strikeout>false</Strikeout>
+                <Underline>false</Underline>
+                <ColorFont>-16777216</ColorFont>
+              </Formatting>
+              <Coordinates XCoordinate="650" YCoordinate="156" />
+              <Coordinates XCoordinate="650" YCoordinate="131" />
+              <Coordinates XCoordinate="694" YCoordinate="131" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+          <ExtendedAttributes />
+        </Transition>
+        <Transition Id="dc70bf0d-766c-43ce-85ee-62ecc251e1e0" From="4fbe1eaa-162b-4ff1-aec7-e289ff2b63dd" To="31e035f7-9012-48e1-842d-b132cec1e8be" Name="no">
+          <Condition Type="CONDITION">
+            <Expression />
+          </Condition>
+          <Description />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo FromPort="2" ToolId="BizAgi_Process_Modeler" BorderColor="-16777216" TextX="650" TextY="207" TextWidth="50" TextHeight="30">
+              <Formatting>
+                <Alignment>Near</Alignment>
+                <FontName>Segoe UI</FontName>
+                <SizeFont>8</SizeFont>
+                <Bold>false</Bold>
+                <Italic>false</Italic>
+                <Strikeout>false</Strikeout>
+                <Underline>false</Underline>
+                <ColorFont>-16777216</ColorFont>
+              </Formatting>
+              <Coordinates XCoordinate="650" YCoordinate="196" />
+              <Coordinates XCoordinate="650" YCoordinate="218" />
+              <Coordinates XCoordinate="693" YCoordinate="218" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+          <ExtendedAttributes />
+        </Transition>
+        <Transition Id="e59ac9c9-0bc6-42b1-8b95-310e7a216b93" From="31e035f7-9012-48e1-842d-b132cec1e8be" To="ce3381f8-ab98-42c6-a1a1-5f77c3427c0c">
+          <Condition />
+          <Description />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToPort="2" ToolId="BizAgi_Process_Modeler" BorderColor="-16777216" TextX="806" TextY="218" TextWidth="90" TextHeight="60">
+              <Formatting>
+                <Alignment>Near</Alignment>
+                <FontName>Segoe UI</FontName>
+                <SizeFont>8</SizeFont>
+                <Bold>false</Bold>
+                <Italic>false</Italic>
+                <Strikeout>false</Strikeout>
+                <Underline>false</Underline>
+                <ColorFont>-16777216</ColorFont>
+              </Formatting>
+              <Coordinates XCoordinate="783" YCoordinate="218" />
+              <Coordinates XCoordinate="828" YCoordinate="218" />
+              <Coordinates XCoordinate="828" YCoordinate="181" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+          <ExtendedAttributes />
+        </Transition>
+        <Transition Id="e54faa3d-e6ce-469d-89cc-8597f69e639f" From="40b13260-f0b7-400c-b2a3-9ef04fadf8ff" To="ce3381f8-ab98-42c6-a1a1-5f77c3427c0c">
+          <Condition />
+          <Description />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo FromPort="17" ToPort="1" ToolId="BizAgi_Process_Modeler" BorderColor="-16777216" TextX="806" TextY="108" TextWidth="90" TextHeight="60">
+              <Formatting>
+                <Alignment>Near</Alignment>
+                <FontName>Segoe UI</FontName>
+                <SizeFont>8</SizeFont>
+                <Bold>false</Bold>
+                <Italic>false</Italic>
+                <Strikeout>false</Strikeout>
+                <Underline>false</Underline>
+                <ColorFont>-16777216</ColorFont>
+              </Formatting>
+              <Coordinates XCoordinate="784" YCoordinate="107" />
+              <Coordinates XCoordinate="828" YCoordinate="107" />
+              <Coordinates XCoordinate="828" YCoordinate="141" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+          <ExtendedAttributes />
+        </Transition>
+        <Transition Id="9453dd65-525b-426b-b14b-9010645b0c67" From="ce3381f8-ab98-42c6-a1a1-5f77c3427c0c" To="6d0bd2ea-13c8-413a-ab4a-f0027d090c97">
+          <Condition Type="CONDITION">
+            <Expression />
+          </Condition>
+          <Description />
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToPort="1" ToolId="BizAgi_Process_Modeler" BorderColor="-16777216" TextX="856" TextY="160" TextWidth="90" TextHeight="60">
+              <Formatting>
+                <Alignment>Near</Alignment>
+                <FontName>Segoe UI</FontName>
+                <SizeFont>8</SizeFont>
+                <Bold>false</Bold>
+                <Italic>false</Italic>
+                <Strikeout>false</Strikeout>
+                <Underline>false</Underline>
+                <ColorFont>-16777216</ColorFont>
+              </Formatting>
+              <Coordinates XCoordinate="848" YCoordinate="161" />
+              <Coordinates XCoordinate="866" YCoordinate="161" />
+              <Coordinates XCoordinate="866" YCoordinate="203" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+          <ExtendedAttributes />
+        </Transition>
+      </Transitions>
+      <ExtendedAttributes>
+        <ExtendedAttribute Name="RuntimeProperties" Value="{&quot;processClassProperties&quot;:{&quot;displayName&quot;:&quot;Proceso 1&quot;,&quot;accessType&quot;:&quot;Process&quot;,&quot;order&quot;:1,&quot;useParentCaseNumber&quot;:true,&quot;enableAlarms&quot;:true,&quot;enableNotifications&quot;:true,&quot;creationDate&quot;:&quot;2019-05-31T12:11:59.1692685-05:00&quot;},&quot;processProperties&quot;:{&quot;version&quot;:{&quot;numberVersion&quot;:&quot;1.0&quot;,&quot;isActive&quot;:true},&quot;versionCreationDate&quot;:&quot;2019-05-31T12:11:59.1692685-05:00&quot;,&quot;supportsScopes&quot;:true,&quot;caseAccessType&quot;:&quot;Public&quot;,&quot;renderVersion&quot;:2,&quot;formsVersion&quot;:0}}" />
+      </ExtendedAttributes>
+    </WorkflowProcess>
+  </WorkflowProcesses>
+  <ExtendedAttributes />
+</Package>
+
